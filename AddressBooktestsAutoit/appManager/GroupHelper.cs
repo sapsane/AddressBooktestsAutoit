@@ -48,6 +48,8 @@ namespace AddressBooktestsAutoit
                 list.Add(new GroupData()
                 {
                     Name = item
+
+
                 });
             }
             CloseGroupDialog();
