@@ -12,8 +12,8 @@ namespace AddressBooktestsAutoit
         public static string WINTITLE = "Free Address Book";
 
 
-        private AutoItX3 aux;
-        private GroupHelper groupHelper;
+        public AutoItX3 aux;
+        public GroupHelper groupHelper;
 
         public ApplicationManager() 
         {

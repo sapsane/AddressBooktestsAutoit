@@ -17,7 +17,12 @@ namespace AddressBooktestsAutoit
         {
             OpenGroupsDialog();
             aux.ControlClick(GROUPWINTITLE, "", "WindowsForms10.BUTTON.app.0.2c908d53");
-            aux.Send(newGroup.Name);
+
+            manager.Aux.Send(newGroup.Name);
+            
+            
+
+            
             aux.Send("{ENTER}");
             CloseGroupDialog();
 

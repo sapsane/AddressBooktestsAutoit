@@ -13,13 +13,13 @@ namespace AddressBooktestsAutoit
         public ApplicationManager app;
 
         [OneTimeSetUp]
-        public void initApplication() 
+        public void InitApplication() 
         {
             app = new ApplicationManager();
         }
 
         [OneTimeTearDown]
-        public void stopApplication() 
+        public void StopApplication() 
         {
             app.Stop();
         }
