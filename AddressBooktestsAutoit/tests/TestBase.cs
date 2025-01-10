@@ -12,13 +12,13 @@ namespace AddressBooktestsAutoit
     {
         public ApplicationManager app;
 
-        [SetUp]
+        [OneTimeSetUp]
         public void initApplication() 
         {
             app = new ApplicationManager();
         }
 
-        [TearDown]
+        [OneTimeTearDown]
         public void stopApplication() 
         {
             app.Stop();
