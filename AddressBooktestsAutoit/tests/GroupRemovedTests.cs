@@ -17,12 +17,8 @@ namespace AddressBooktestsAutoit
         {
             List<GroupData> oldGroups = app.Groups.GetGroupList();
 
-            GroupData groupDelete = new GroupData()
-            {
-                Name = "test"
-            };
 
-            app.Groups.RemovedGroup(groupDelete);
+            app.Groups.RemovedGroup2();
 
             List<GroupData> newGroups = app.Groups.GetGroupList();
             int oldGroups2 = oldGroups.Count -1 ;
